@@ -1,0 +1,115 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.left {
+    flex: 1;
+    padding-right: 20px;
+    border-right: 1px solid #ccc;
+}
+
+.left h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.left ul {
+    list-style: none;
+    padding: 0;
+}
+
+.left li {
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+.right {
+    flex: 1;
+    padding-left: 20px;
+}
+
+.right h1 {
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+.right p {
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form input {
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+.validation {
+    color: red;
+    font-size: 12px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table, th, td {
+    border: 1px solid #ccc;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+#userCount {
+    font-weight: bold;
+}
+
+.removeUserButton {
+    background-color: #f44336;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.removeUserButton:hover {
+    background-color: #e53935;
+}
